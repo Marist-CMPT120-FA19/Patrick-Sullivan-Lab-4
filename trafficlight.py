@@ -1,6 +1,6 @@
->>> from graphics import*
->>> win=GraphWin()
->>> def main():
+from graphics import*
+win=GraphWin()
+def main():
 	win= GraphWin()
 	shape= Rectangle(Point(2,20), Point(40,100))
 	shape.setOutline("black")
@@ -22,4 +22,4 @@
 	win.close()
 
 	
->>> main()
+main()
