@@ -1,5 +1,4 @@
 from graphics import*
-win=GraphWin()
 def main():
 	win= GraphWin()
 	shape= Rectangle(Point(2,20), Point(40,100))
